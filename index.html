@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronroneros - Cuidado de Mascotas a Domicilio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="logo-icon">🐾</span>
+                Ronroneros
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#inicio" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#servicios" class="nav__link">Servicios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#nosotros" class="nav__link">Nosotros</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#testimonios" class="nav__link">Testimonios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+                <button class="nav__close" id="nav-close">✕</button>
+            </div>
+            <button class="nav__toggle" id="nav-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">El mejor cuidado para tu mascota en la comodidad de tu hogar</h1>
+                <p class="hero__description">Profesionales certificados que cuidan, pasean y miman a tu mejor amigo mientras tú no estás. Servicio personalizado a domicilio.</p>
+                <div class="hero__buttons">
+                    <a href="#contacto" class="btn btn--primary">Reservar ahora</a>
+                    <a href="#servicios" class="btn btn--outline">Ver servicios</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="hero__image-wrapper">
+                    <div class="hero__pets">
+                        <span class="pet-emoji">🐕</span>
+                        <span class="pet-emoji">🐈</span>
+                        <span class="pet-emoji">🐰</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features__grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon">🏠</div>
+                    <h3 class="feature-card__title">Servicio a Domicilio</h3>
+                    <p class="feature-card__text">Vamos a tu casa para que tu mascota esté en su ambiente familiar</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">👨‍⚕️</div>
+                    <h3 class="feature-card__title">Personal Certificado</h3>
+                    <p class="feature-card__text">Cuidadores con experiencia y capacitación profesional</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">📱</div>
+                    <h3 class="feature-card__title">Actualizaciones en Vivo</h3>
+                    <p class="feature-card__text">Recibe fotos y videos de tu mascota durante el servicio</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">🛡️</div>
+                    <h3 class="feature-card__title">100% Confiable</h3>
+                    <p class="feature-card__text">Personal verificado con antecedentes y seguros</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestros Servicios</span>
+                <h2 class="section-title">Todo lo que tu mascota necesita</h2>
+                <p class="section-description">Ofrecemos una amplia gama de servicios para mantener a tu mascota feliz y saludable</p>
+            </div>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__image">
+                        <span class="service-emoji">🚶‍♂️🐕</span>
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Paseos Diarios</h3>
+                        <p class="service-card__text">Paseos personalizados según las necesidades de tu perro. Ejercicio y socialización garantizados.</p>
+                        <ul class="service-card__features">
+                            <li>✓ Paseos de 30, 45 o 60 minutos</li>
+                            <li>✓ Rutas seguras y variadas</li>
+                            <li>✓ Fotos del paseo</li>
+                        </ul>
+                        <span class="service-card__price">Desde $15.000/paseo</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__image">
+                        <span class="service-emoji">🏠🐾</span>
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Cuidado en Casa</h3>
+                        <p class="service-card__text">Un cuidador visita tu hogar para alimentar, jugar y dar compañía a tu mascota.</p>
+                        <ul class="service-card__features">
+                            <li>✓ Visitas de 1 a 3 horas</li>
+                            <li>✓ Alimentación incluida</li>
+                            <li>✓ Juegos y cariño</li>
+                        </ul>
+                        <span class="service-card__price">Desde $25.000/visita</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__image">
+                        <span class="service-emoji">🌙🐱</span>
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Hospedaje Nocturno</h3>
+                        <p class="service-card__text">Nuestro cuidador pasa la noche en tu casa cuidando de tu mascota.</p>
+                        <ul class="service-card__features">
+                            <li>✓ Cuidado 24 horas</li>
+                            <li>✓ Incluye paseos y alimentación</li>
+                            <li>✓ Reportes detallados</li>
+                        </ul>
+                        <span class="service-card__price">Desde $50.000/noche</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__image">
+                        <span class="service-emoji">🛁✨</span>
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Baño y Peluquería</h3>
+                        <p class="service-card__text">Servicio de grooming profesional en la comodidad de tu hogar.</p>
+                        <ul class="service-card__features">
+                            <li>✓ Baño con productos premium</li>
+                            <li>✓ Corte y cepillado</li>
+                            <li>✓ Corte de uñas</li>
+                        </ul>
+                        <span class="service-card__price">Desde $35.000</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__image">
+                        <span class="service-emoji">💊🩺</span>
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Medicación</h3>
+                        <p class="service-card__text">Administración de medicamentos según indicaciones veterinarias.</p>
+                        <ul class="service-card__features">
+                            <li>✓ Medicación oral o tópica</li>
+                            <li>✓ Registro de dosis</li>
+                            <li>✓ Coordinación con veterinario</li>
+                        </ul>
+                        <span class="service-card__price">Desde $10.000</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__image">
+                        <span class="service-emoji">🎾🦴</span>
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Entrenamiento</h3>
+                        <p class="service-card__text">Sesiones de adiestramiento básico y obediencia en tu hogar.</p>
+                        <ul class="service-card__features">
+                            <li>✓ Comandos básicos</li>
+                            <li>✓ Corrección de conductas</li>
+                            <li>✓ Socialización</li>
+                        </ul>
+                        <span class="service-card__price">Desde $40.000/sesión</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__image">
+                    <div class="about__image-wrapper">
+                        <span class="about-emoji">🐕‍🦺❤️</span>
+                    </div>
+                    <div class="about__stats">
+                        <div class="stat">
+                            <span class="stat__number">500+</span>
+                            <span class="stat__label">Mascotas Felices</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">50+</span>
+                            <span class="stat__label">Cuidadores</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">5+</span>
+                            <span class="stat__label">Años de Experiencia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__content">
+                    <span class="section-tag">Sobre Nosotros</span>
+                    <h2 class="section-title">Amamos a las mascotas tanto como tú</h2>
+                    <p class="about__text">
+                        Somos un equipo de amantes de los animales comprometidos con brindar el mejor cuidado posible a tu mascota.
+                        Entendemos que dejar a tu compañero puede ser difícil, por eso nos esforzamos en crear una experiencia
+                        de confianza y tranquilidad.
+                    </p>
+                    <p class="about__text">
+                        Todos nuestros cuidadores pasan por un riguroso proceso de selección que incluye verificación de antecedentes,
+                        capacitación en primeros auxilios para mascotas y evaluación de habilidades con diferentes tipos de animales.
+                    </p>
+                    <ul class="about__list">
+                        <li>🐾 Cuidadores verificados y capacitados</li>
+                        <li>🐾 Seguro de responsabilidad civil</li>
+                        <li>🐾 Atención personalizada para cada mascota</li>
+                        <li>🐾 Comunicación constante con los dueños</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn--primary">Conoce a nuestro equipo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonios</span>
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <p class="section-description">Miles de familias confían en nosotros para cuidar a sus mascotas</p>
+            </div>
+            <div class="testimonials__grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-card__rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"Excelente servicio! Mi perro Max ama a su paseador. Siempre recibo fotos hermosas de sus paseos y llega feliz y cansado."</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">👩</div>
+                        <div class="testimonial-card__info">
+                            <span class="testimonial-card__name">María González</span>
+                            <span class="testimonial-card__pet">Dueña de Max 🐕</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card__rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"Viajo frecuentemente por trabajo y saber que mis gatitos están bien cuidados me da mucha tranquilidad. Servicio impecable."</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">👨</div>
+                        <div class="testimonial-card__info">
+                            <span class="testimonial-card__name">Carlos Rodríguez</span>
+                            <span class="testimonial-card__pet">Dueño de Luna y Sol 🐱🐱</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card__rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"El servicio de baño a domicilio es increíble. Mi perrita nerviosa se estresa en las peluquerías, pero en casa está tranquila."</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">👩</div>
+                        <div class="testimonial-card__info">
+                            <span class="testimonial-card__name">Ana Martínez</span>
+                            <span class="testimonial-card__pet">Dueña de Lola 🐩</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">¿Listo para darle a tu mascota el mejor cuidado?</h2>
+                <p class="cta__text">Primera visita con 20% de descuento. Agenda hoy y conoce a tu cuidador asignado.</p>
+                <a href="#contacto" class="btn btn--secondary">Reservar primera cita</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <span class="section-tag">Contacto</span>
+                    <h2 class="section-title">¿Tienes preguntas?</h2>
+                    <p class="contact__text">Estamos aquí para ayudarte. Contáctanos y te responderemos a la brevedad.</p>
+                    <div class="contact__methods">
+                        <div class="contact-method">
+                            <span class="contact-method__icon">📞</span>
+                            <div class="contact-method__info">
+                                <span class="contact-method__label">Teléfono</span>
+                                <span class="contact-method__value">+56 9 1234 5678</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-method__icon">📧</span>
+                            <div class="contact-method__info">
+                                <span class="contact-method__label">Email</span>
+                                <span class="contact-method__value">hola@ronroneros.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-method__icon">📍</span>
+                            <div class="contact-method__info">
+                                <span class="contact-method__label">Cobertura</span>
+                                <span class="contact-method__value">Santiago, Chile</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-method__icon">🕒</span>
+                            <div class="contact-method__info">
+                                <span class="contact-method__label">Horario</span>
+                                <span class="contact-method__value">Lun - Dom, 7:00 - 21:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__social">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📸</a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+                <div class="contact__form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nombre completo</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+56 9 1234 5678">
+                        </div>
+                        <div class="form-group">
+                            <label for="pet-type" class="form-label">Tipo de mascota</label>
+                            <select id="pet-type" name="pet-type" class="form-input">
+                                <option value="">Selecciona una opción</option>
+                                <option value="perro">Perro 🐕</option>
+                                <option value="gato">Gato 🐱</option>
+                                <option value="conejo">Conejo 🐰</option>
+                                <option value="ave">Ave 🐦</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Servicio de interés</label>
+                            <select id="service" name="service" class="form-input">
+                                <option value="">Selecciona una opción</option>
+                                <option value="paseos">Paseos diarios</option>
+                                <option value="cuidado">Cuidado en casa</option>
+                                <option value="hospedaje">Hospedaje nocturno</option>
+                                <option value="bano">Baño y peluquería</option>
+                                <option value="medicacion">Medicación</option>
+                                <option value="entrenamiento">Entrenamiento</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Cuéntanos sobre tu mascota y qué necesitas..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">
+                        <span class="logo-icon">🐾</span>
+                        Ronroneros
+                    </a>
+                    <p class="footer__description">El mejor cuidado para tu mascota en la comodidad de tu hogar. Profesionales certificados y confiables.</p>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__title">Servicios</h4>
+                    <ul class="footer__list">
+                        <li><a href="#servicios">Paseos diarios</a></li>
+                        <li><a href="#servicios">Cuidado en casa</a></li>
+                        <li><a href="#servicios">Hospedaje nocturno</a></li>
+                        <li><a href="#servicios">Baño y peluquería</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__title">Empresa</h4>
+                    <ul class="footer__list">
+                        <li><a href="#nosotros">Sobre nosotros</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__title">Legal</h4>
+                    <ul class="footer__list">
+                        <li><a href="#">Términos de servicio</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Política de cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Ronroneros. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
